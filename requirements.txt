@@ -1,0 +1,37 @@
+# ─────────────────────────────────────────────
+# RAG Pipeline — Production Requirements
+# Install: pip install -r requirements.txt
+# ─────────────────────────────────────────────
+
+# ── LangChain Core ────────────────────────────
+langchain
+langchain-core
+langchain-community
+
+# ── Google Gemini ─────────────────────────────
+langchain-google-genai
+google-generativeai
+
+# ── Vector Store ──────────────────────────────
+chromadb
+
+# ── PDF Reading ───────────────────────────────
+pypdf
+
+# ── FastAPI + Server ──────────────────────────
+fastapi
+uvicorn
+python-multipart
+
+# ── Streamlit (local UI) ──────────────────────
+streamlit
+
+# ── Environment Variables ─────────────────────
+python-dotenv
+
+# ── LangChain Experimental ────────────────────
+langchain-experimental
+
+# ── Supporting Libraries ──────────────────────
+pydantic
+requests
