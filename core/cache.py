@@ -61,4 +61,5 @@ def clear_all_cache():
         os.remove(CACHE_FILE)
         print("All sticky notes cleared.")
 
-"""Teacher asks same question twice — first time you think hard (Gemini). Second time you just read your sticky note. But if the textbook changes — throw ALL sticky notes away. They might have wrong answers now."""
+"""Teacher asks same question twice — first time you think hard (Gemini).
+ Second time you just read your sticky note. But if the textbook changes — throw ALL sticky notes away. They might have wrong answers now."""
