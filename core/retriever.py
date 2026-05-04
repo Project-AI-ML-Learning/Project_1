@@ -19,7 +19,7 @@ load_dotenv()
 
 # ── LLM setup ─────────────────────────────────
 llm = ChatGoogleGenerativeAI(
-    model="models/gemini-2.5-flash",
+    model="gemini-2.5-flash",
     temperature=0
 )
 
