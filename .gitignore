@@ -1,0 +1,10 @@
+# Never push these to GitHub
+.env
+chroma_db/
+file_hash_registry.json
+query_cache.json
+__pycache__/
+*.pyc
+venv/
+.venv/
+documents/
